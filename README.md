@@ -5,6 +5,8 @@ SOPs for the Thelan Tech Github
 Git is a version control system to keep track of changes in code which allows multiple people to collaborate on projects and share changes to code seamlessly. It can do a lot, but is very simple. If you are completely new to GitHub I would suggest reading up about what it can do here: https://guides.github.com/
 
 # Installing Git
+
+First off, if you don't already then you will need a GitHub account. You can sign up here: https://github.com/
 WINDOWS
 The easiest way to use git on Windows is through their desktop client available here: https://desktop.github.com/. Here is a guide on setting it up: https://help.github.com/desktop/guides/getting-started/. The desktop client has a tutorial built into it, but there are also loads of available tutorials and videos online. 
 
