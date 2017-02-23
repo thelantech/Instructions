@@ -23,7 +23,9 @@ Linux already comes with git installed. If you're using linux you probably alrea
 Git has several different workflows. The first is when you are starting a repository for the first time. 
 
   **Creating a Repository**
+  
   Create Repository > Create File(s) > Commit Changes to Master > Sync to Remote Repository
+  
   This flow will create a new remote repository which is synced to your local folder. Start by clicking on the plus sign in 
   the top left of the client. You can choose to make a blank repository (Create), clone an existing repository that you have 
   access to (Clone) or initialize git in one that already has files (Add). At the top of the desktop client there are buttons 
@@ -32,7 +34,9 @@ Git has several different workflows. The first is when you are starting a reposi
   commit the files you have added to the repository.
   
   **Syncing Changes**
+  
   Make Changes > Commit to Branch > Sync with Remote Repository
+  
   After making changes to the files in the repository, commit them to the branch you are on (default is master) in the 
   Changes window. You will need to fill in a message to allow you to commit. Once changes are committed, click Sync in
   the top right corner to sync the changes to the repository. This will also pull any changes from the remote repository 
@@ -40,7 +44,9 @@ Git has several different workflows. The first is when you are starting a reposi
   to ensure that you are working on the latest version of any code. 
   
   **New Branches**
+  
   Create New Branch > Make Changes > Commit Changes > Sync > Test > Merge with Master
+  
   Arguably the most important part of the workflow. We do not want changes that don't work to be synced with the Master 
   branch, so we use Branches. When you are working on something with other collaborators, but want to commit changes that you 
   are not sure will work so you can keep track of them, then you need to create a new branch. Branches allow you (and others) 
@@ -52,11 +58,12 @@ Git has several different workflows. The first is when you are starting a reposi
   'Update from...'. This will merge your changes back into the master branch and end the other branch.  
   
 # Warnings & Conventions 
-NEVER sync changes to the master unless you are sure they work. I mean it. Don't do it. Make a branch and test it, and get someone else to QA it too.
-For anyone on Linux, never commit without a message. For desktop users it forces you to. Try to be detailed about the reasons for changes and the decision behind using that solution. 
-Write commit messages in the present tense. Not a massively important one, but it is standard practice. Detailed descriptions can be in past tense. 
-Always comment your code. Working collaboratively means needing to know what is going on in each other's heads. You can never be too detailed. 
-Feel free to add your own changes to this doc. That's the whole point of git :) 
+
+1. NEVER sync changes to the master unless you are sure they work. I mean it. Don't do it. Make a branch and test it, and get someone else to QA it too.
+2. For anyone on Linux, never commit without a message. For desktop users it forces you to. Try to be detailed about the reasons for changes and the decision behind using that solution. 
+3. Write commit messages in the present tense. Not a massively important one, but it is standard practice. Detailed descriptions can be in past tense. 
+4. Always comment your code. Working collaboratively means needing to know what is going on in each other's heads. You can never be too detailed. 
+5. Feel free to add your own changes to this doc. That's the whole point of git :) 
 
 
   
