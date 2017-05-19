@@ -21,7 +21,7 @@ Most Linux distros already come with git installed. If you're using Linux you pr
 1. Integrate <a href="www.zenhub.com">ZenHub</a> into your github. Just go to the link and click the big button that says 'Add ZenHub to GitHub' 
 
 <h2>Git Workflow</h2>
-*All instructions here are for Windows/Mac users. If you are using Linux then the workflow remains the same, but commands will be issued from the terminal. If you are not familiar with these, consult the github documentation <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">here</a>.*
+<i>All instructions here are for Windows/Mac users. If you are using Linux then the workflow remains the same, but commands will be issued from the terminal. If you are not familiar with these, consult the github documentation <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">here</a>.</i>
 <br><br>
 Git has several different workflows. The first is when you are starting a repository for the first time. 
 
