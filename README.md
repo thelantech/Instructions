@@ -9,7 +9,7 @@ Git is a version control system used to keep track of changes in code which allo
 First off, if you haven't already then you will need to create a GitHub account. You can sign up <a href="https://github.com/">here</a>.
 
 <h3>Windows</h3>
-The easiest way to use git on Windows is through their desktop client available <a href="https://desktop.github.com/">here</a>. <a href="https://help.github.com/desktop/guides/getting-started/">Here</a> is a guide on setting it up. The desktop client has a tutorial built into it, but there are also loads of available tutorials and videos online. 
+The easiest way to use git on Windows is through their desktop client available <a href="https://desktop.github.com/">here</a>. A guide on setting it up cna be found <a href="https://help.github.com/desktop/guides/getting-started/">here</a>. The desktop client has a tutorial built into it, but there are also loads of available tutorials and videos online. 
 
 <h3>Mac</h3>
 Use the same instructions as above. The desktop client is also available for Mac. 
