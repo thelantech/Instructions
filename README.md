@@ -1,30 +1,31 @@
-# Instructions
-SOPs for the Thelan Tech Github
+# GitHub Instructions
+SOPs for the Thelan Tech Github<br>
+<img src="https://s-media-cache-ak0.pinimg.com/originals/3c/d5/67/3cd5679f54dc60811383649f9f6ea37d.png"/>
+<h2>Overview</h2>
+Git is a version control system used to keep track of changes in code which allows multiple people to collaborate on projects and share changes to code seamlessly. It can do a lot, but is very simple. If you are completely new to GitHub I would suggest reading up about what it can do <a href="https://guides.github.com/">here</a>.
 
-# Overview
-Git is a version control system to keep track of changes in code which allows multiple people to collaborate on projects and share changes to code seamlessly. It can do a lot, but is very simple. If you are completely new to GitHub I would suggest reading up about what it can do here: https://guides.github.com/
+<h2>Installing Git</h2>
 
-# Installing Git
+First off, if you haven't already then you will need to create a GitHub account. You can sign up <a href="https://github.com/">here</a>.
 
-First off, if you don't already then you will need a GitHub account. You can sign up here: https://github.com/
-WINDOWS
-The easiest way to use git on Windows is through their desktop client available here: https://desktop.github.com/. Here is a guide on setting it up: https://help.github.com/desktop/guides/getting-started/. The desktop client has a tutorial built into it, but there are also loads of available tutorials and videos online. 
+<h3>Windows</h3>
+The easiest way to use git on Windows is through their desktop client available <a href="https://desktop.github.com/">here</a>. <a href="https://help.github.com/desktop/guides/getting-started/">Here</a> is a guide on setting it up. The desktop client has a tutorial built into it, but there are also loads of available tutorials and videos online. 
 
-MAC
+<h3>Mac</h3>
 Use the same instructions as above. The desktop client is also available for Mac. 
 
-LINUX
-Linux already comes with git installed. If you're using linux you probably already know how to use git ;) 
+<h3>Linux</h3>
+Most Linux distros already come with git installed. If you're using Linux you probably already know how to use git. If not, there is plenty of good documentation online.  
 
-# Other Requirements
-1. Integrate ZenHub (www.zenhub.com) into your github. Just go to the link and click the big button that says 'Add ZenHub to GitHub' 
+<h2>Other Requirements</h2>
+1. Integrate <a href="www.zenhub.com">ZenHub</a> into your github. Just go to the link and click the big button that says 'Add ZenHub to GitHub' 
 
-# Git Workflow
-*All instructions are for Windows/Mac users. If you are using Linux then you should know what to do.*
+<h2>Git Workflow</h2>
+*All instructions here are for Windows/Mac users. If you are using Linux then the workflow remains the same, but commands will be issued from the terminal. If you are not familiar with these, consult the github documentation <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">here</a>.*
 
 Git has several different workflows. The first is when you are starting a repository for the first time. 
 
-  **Creating a Repository**
+  <h3>Creating a Repository</h3>
   
   Create Repository > Create File(s) > Commit Changes to Master > Sync to Remote Repository
   
@@ -35,7 +36,9 @@ Git has several different workflows. The first is when you are starting a reposi
   not synced with the git repository. By clicking on Changes you are given the choice to 'Commit to master', which will 
   commit the files you have added to the repository.
   
-  **Syncing Changes**
+  The second is when you are syncing changes with an existing repo.
+  
+  <h3>Syncing Changes</h3>
   
   Make Changes > Commit to Branch > Sync with Remote Repository
   
@@ -45,7 +48,9 @@ Git has several different workflows. The first is when you are starting a reposi
   to your local repository, so be aware of this. This operation should be run at the start of any editing session as well 
   to ensure that you are working on the latest version of any code. 
   
-  **New Branches**
+  The third is when you are working on unfinished code that hasn't been tested yet.
+  
+  <h3>New Branches</h3>
   
   Create New Branch > Make Changes > Commit Changes > Sync > Test > Merge with Master
   
@@ -59,7 +64,7 @@ Git has several different workflows. The first is when you are starting a reposi
   dropdown menu, clicking on 'Compare', selecting the branch that you want to merge into the master, and then clicking 
   'Update from...'. This will merge your changes back into the master branch and end the other branch.  
   
-# Warnings & Conventions 
+<h2>Warnings & Conventions</h2>
 
 1. NEVER sync changes to the master unless you are sure they work. I mean it. Don't do it. Make a branch and test it, and get someone else to QA it too.
 2. For anyone on Linux, never commit without a message. For desktop users it forces you to. Try to be detailed about the reasons for changes and the decision behind using that solution. 
