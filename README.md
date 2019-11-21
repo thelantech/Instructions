@@ -1,5 +1,5 @@
 # GitHub Instructions
-SOPs for the Thelan Tech Github<br>
+SOPs for the Synoval Github<br>
 <img src="https://s-media-cache-ak0.pinimg.com/originals/3c/d5/67/3cd5679f54dc60811383649f9f6ea37d.png"/>
 <h2>Overview</h2>
 Git is a version control system used to keep track of changes in code which allows multiple people to collaborate on projects and share changes to code seamlessly. It can do a lot, but is very simple. If you are completely new to GitHub I would suggest reading up about what it can do <a href="https://guides.github.com/">here</a>.
